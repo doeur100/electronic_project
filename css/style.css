@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+} */
+*{
+    font-family: var(--font-eng);
+}
+
+:root{
+
+    --font-eng:"Roboto", sans-serif;
+
+    --bg-red:#DE3163;
+    --bg-black: #000;
+    --bg-white:#fff;
+}
+
+header{
+    background-image: url('https://monawatch.com/wp-content/uploads/2022/09/offer-banner-50off.jpg');
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    justify-content: center;
+    color:#fff;
+}
+.nav-item .nav-link {
+    color:#fff;
+}
+.navbar-logo {
+    color:orange;
+}
+.carousel-item{
+    min-height: 85vh;
+}
+.box-banner-title{
+    margin-top: 30vh;
+}
+h2 span{
+    border-left: 4px solid red;
+}
+
+.box-discount{
+    background-image: url('../images/offer_img.jpg');
+    height: 70vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color:#fff;
+}
+
+.discount{
+    position: relative;
+}
+.discount .title{
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    color:#fff;
+}
+.discount .title h1{
+    font-size: 4rem;
+}
+
+.flex-box img{
+    width: 90px;
+}
+
+.footer{
+    margin-top: 150px;
+}
+.ulist li{
+    list-style-type: none;
+    padding-top: 5px;
+}
+.ulist li a{
+    text-decoration: none;
+    color: #ddd;
+}
+
+.box-zoom-img{
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+.box-zoom-img img{
+    transition: all 0.3s;
+    display: block;
+    height: auto;
+    transform: scale(1);
+}
+.box-zoom-img:hover img{
+    transform: scale(1.1);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .discount .title h1{
+        font-size: 2.5rem;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+   
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+   
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+}
